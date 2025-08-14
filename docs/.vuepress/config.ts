@@ -13,7 +13,7 @@ export default defineUserConfig({
   }),
   
   theme: defaultTheme({
-    logo: '/public/logo.png',
+    logo: '/logo.png',
     navbar: [
       {
         text: '指南',
