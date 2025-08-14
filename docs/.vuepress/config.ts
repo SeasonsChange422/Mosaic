@@ -6,7 +6,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: 'Mosaic Framework',
   description: '基于插件化架构的Java模块化框架',
-  
+  base: '/Mosaic/',
   bundler: viteBundler({
     viteOptions: {},
     vuePluginOptions: {},
