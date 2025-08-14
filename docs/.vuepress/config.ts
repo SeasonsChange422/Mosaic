@@ -1,12 +1,14 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { path } from '@vuepress/utils'
 
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'Mosaic Framework',
   description: '基于插件化架构的Java模块化框架',
   base: '/Mosaic/',
+  public: path.resolve(__dirname, '../public'),
   bundler: viteBundler({
     viteOptions: {},
     vuePluginOptions: {},
