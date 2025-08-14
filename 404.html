@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.24" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Mosaic Framework</title><meta name="description" content="基于插件化架构的Java模块化框架">
+    <link rel="preload" href="/assets/style-CkGLo3dq.css" as="style"><link rel="stylesheet" href="/assets/style-CkGLo3dq.css">
+    <link rel="modulepreload" href="/assets/app-BYxDtnMD.js"><link rel="modulepreload" href="/assets/404.html-B_at-2Dg.js">
+    <link rel="prefetch" href="/assets/index.html-DB_DpcpA.js" as="script"><link rel="prefetch" href="/assets/index.html-DZ_ZZ9Tz.js" as="script"><link rel="prefetch" href="/assets/config-api.html-okACIITR.js" as="script"><link rel="prefetch" href="/assets/cube-api.html-B3nu0VsV.js" as="script"><link rel="prefetch" href="/assets/event-api.html-BzmrKbNw.js" as="script"><link rel="prefetch" href="/assets/extension-api.html-DCHAdIrL.js" as="script"><link rel="prefetch" href="/assets/index.html-CcvKLHZT.js" as="script"><link rel="prefetch" href="/assets/ai-chat-plugin.html-CjDuFenX.js" as="script"><link rel="prefetch" href="/assets/listener-plugin.html-91pRISNi.js" as="script"><link rel="prefetch" href="/assets/system-log-plugin.html-CtJVQ7fO.js" as="script"><link rel="prefetch" href="/assets/index.html-BL_8FdUi.js" as="script"><link rel="prefetch" href="/assets/configuration.html-lD86XYpf.js" as="script"><link rel="prefetch" href="/assets/core-concepts.html-ICvKhME4.js" as="script"><link rel="prefetch" href="/assets/event-system.html-Cip--qQn.js" as="script"><link rel="prefetch" href="/assets/getting-started.html-gnH_06qX.js" as="script"><link rel="prefetch" href="/assets/index.html-Bl33fxmW.js" as="script"><link rel="prefetch" href="/assets/best-practices.html-DCFKas71.js" as="script"><link rel="prefetch" href="/assets/cube-development.html-DMv9fiCU.js" as="script"><link rel="prefetch" href="/assets/extension-development.html-BTgoaCN8.js" as="script"><link rel="prefetch" href="/assets/listener-development.html-CHeF3kDk.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-91f12681><main class="page" data-v-91f12681><div vp-content data-v-91f12681><h1 data-v-91f12681>404</h1><blockquote data-v-91f12681>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-91f12681>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-BYxDtnMD.js" defer></script>
+  </body>
+</html>
